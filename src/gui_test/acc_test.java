@@ -83,6 +83,7 @@ public class acc_test extends javax.swing.JFrame {
         CallableStatement cstmt = null;
         ResultSet rs = null;
         Connection con = sqlconnect.ConnectDB();
+        String test = "";
         String prc = "{call ShowAccount(?)}";
         try{
             cstmt = con.prepareCall(prc);

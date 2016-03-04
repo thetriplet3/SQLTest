@@ -11,6 +11,7 @@ import javax.swing.*;
 public class sqlconnect {
     static String db = "jdbc:mysql://localhost:3306/j_test";
     static String usr = "root";
+    static String pw = "";
     Connection con = null;
     
     public static Connection ConnectDB() {
